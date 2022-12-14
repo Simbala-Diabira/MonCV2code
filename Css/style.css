@@ -30,7 +30,10 @@ body{
     margin-left: 60px;
     
 }
-
+img{
+    height:100%;
+    width:100%;
+}
 .sous-header{
     position: relative;
     padding-left: 35px;
@@ -47,7 +50,7 @@ body{
 .cont-bas-left{
     position: relative;
     background-color: #353E4D;
-    width: 217px;
+    width: 227px;
     max-width: 600px;
     padding: 30px;
     padding-left: 0px;
@@ -74,19 +77,19 @@ body{
 .ttrechercher{
     font-weight: bold;
 }
-.intro-header{
-    
-}
 /*La partie cont-bas-left*/
 .adresse{
     
     margin: 0px;    
 }
+.adress-icon{
+
+}
 
 .adresse ul li{
   
     list-style-type: none;
-    
+    padding: 5px;
     
 } 
 .title2{
@@ -206,8 +209,49 @@ body{
         width: 20px;
     }
 }
+@media screen and (max-width:420px) and (min-width:311px){
+    .containe{
+        width: 10px;
+    }
+    .cont-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
 
-@media screen and (max-width:390px) and (min-width:360px){
+    .cont-bas{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        padding-right: 0%;
+    }
+    .cont-bas-right {
+        position: relative;
+        background-color: white;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cont-bas-left {
+    position: relative;
+    background-color: #353E4D;
+    width: 239px;
+    max-width: 600px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 24%;
+    color: white;
+    }   
+    .intro-header{
+        width: 20px;
+    }
+}
+
+
+@media screen and (max-width:390px) and (min-width:300px){
     .containe{
         width: 10px;
     }
@@ -236,7 +280,91 @@ body{
     .cont-bas-left {
     position: relative;
     background-color: #353E4D;
-    width: 217px;
+    width: 232px;
+    max-width: 600px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 41%;
+    color: white;
+}
+    .intro-header{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width:320px) and (min-width:319px){
+    .containe{
+        width: 10px;
+    }
+    .cont-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .cont-bas{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        padding-right: 0%;
+    }
+    .cont-bas-right {
+        position: relative;
+        background-color: white;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cont-bas-left {
+    position: relative;
+    background-color: #353E4D;
+    width: 239px;
+    max-width: 600px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 24%;
+    color: white;
+    }   
+    .intro-header{
+        width: 20px;
+    }
+}
+
+
+@media screen and (max-width:330px) and (min-width:50px){
+    .containe{
+        width: 10px;
+    }
+    .cont-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        width: 390px;
+        
+    }
+
+    .cont-bas{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .cont-bas-right {
+        position: relative;
+        background-color: white;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cont-bas-left {
+    position: relative;
+    background-color: #353E4D;
+    width: 232px;
     max-width: 600px;
     padding: 30px;
     padding-left: 0px;
