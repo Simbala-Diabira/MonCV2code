@@ -8,6 +8,7 @@ body{
     max-width: 900px;
     min-height: 1000px;
     margin: auto;
+    margin-bottom: 5px;
     padding: 2px; 
 }
 .cont-header{
@@ -292,6 +293,48 @@ img{
     }
 }
 
+@media screen and (max-width:360px) and (min-width:358px){
+    .containe{
+        width: 10px;
+    }
+    .cont-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 390px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .cont-bas{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .cont-bas-right {
+        position: relative;
+        background-color: white;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cont-bas-left {
+    position: relative;
+    background-color: #353E4D;
+    width: 232px;
+    max-width: 600px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 41%;
+    color: white;
+}
+    .intro-header{
+        width: 20px;
+    }
+}
+
 @media screen and (max-width:320px) and (min-width:319px){
     .containe{
         width: 10px;
@@ -376,7 +419,7 @@ img{
     }
 }
 
-@media screen and (max-width:414px) and (min-width:393px){
+@media screen and /*(max-width:414px)*/(max-width:416px) and (min-width:393px){
     .containe{
         width: 10px;
     }
@@ -416,9 +459,8 @@ img{
         width: 20px;
     }
 }
-/*
 
-@media screen and (max-width:912px){
+@media screen and (max-width:480px) and (min-width:415px){
     .containe{
         width: 10px;
     }
@@ -444,11 +486,119 @@ img{
         margin-left: 0px;
         margin-right: 0px;
     }
+    .cont-bas-left {
+    position: relative;
+    background-color: #353E4D;
+    width: 250px;
+    max-width: 600px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 47%;
+    color: white;
+}
+    .intro-header{
+        width: 20px;
+    }
+}
+
+
+@media screen and (max-width:736px) and (min-width:530px) {
+    .container {
+        display: grid;
+        box-shadow: rgb(57 57 63) 2px 2px;
+        max-width: 900px;
+        /* min-height: 1000px; */
+        margin: 0px;
+        margin-bottom: 5px;
+        /* padding: 2px; */
+    }
+    .cont-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .cont-bas{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .cont-bas-right {
+        position: relative;
+        background-color: white;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cont-bas-left {
+        position: relative;
+        background-color: #353E4D;
+        width: 390px;
+        max-width: 600px;
+        padding: 30px;
+        padding-left: 0px;
+        padding-right: 400px;
+        color: white;
+    }
     .intro-header{
         width: 20px;
     }
     
-}*/
+}
+@media screen and (max-width:530px) and (min-width:480px) {
+    .container {
+        display: grid;
+        box-shadow: rgb(57 57 63) 2px 2px;
+        max-width: 900px;
+        /* min-height: 1000px; */
+        margin: 0px;
+        margin-bottom: 5px;
+        /* padding: 2px; */
+    }
+
+    .cont-header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        width: 529px;
+        
+    }
+
+    .cont-bas{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .cont-bas-right {
+        position: relative;
+        background-color: white;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cont-bas-left {
+        position: relative;
+        background-color: #353E4D;
+        width: 129px;
+        max-width: 600px;
+        padding: 30px;
+        padding-left: 0px;
+        padding-right: 400px;
+        color: white;
+    }
+    .intro-header{
+        width: 20px;
+    }
+    
+}
+
 /*
 @media screen and (max-width:820px){
     .containe{
