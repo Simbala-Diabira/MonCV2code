@@ -4,7 +4,7 @@ body{
 }
 .container{
     display: grid;
-    box-shadow:rgb(57, 57, 63) 2px 2px;
+    box-shadow:rgb(214, 214, 228) 1px 1px;
     max-width: 900px;
     min-height: 1000px;
     margin: auto;
